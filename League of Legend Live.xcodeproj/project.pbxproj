@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED1143E1A4206EB00685763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1143D1A4206EB00685763 /* AppDelegate.swift */; };
+		CED114401A4206EB00685763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1143F1A4206EB00685763 /* ViewController.swift */; };
+		CED114431A4206EB00685763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED114411A4206EB00685763 /* Main.storyboard */; };
+		CED114451A4206EB00685763 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED114441A4206EB00685763 /* Images.xcassets */; };
+		CED114481A4206EB00685763 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED114461A4206EB00685763 /* LaunchScreen.xib */; };
+		CED114541A4206EC00685763 /* League_of_Legend_LiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED114531A4206EC00685763 /* League_of_Legend_LiveTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED1144E1A4206EC00685763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED114301A4206EB00685763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED114371A4206EB00685763;
+			remoteInfo = "League of Legend Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED114381A4206EB00685763 /* League of Legend Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League of Legend Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED1143C1A4206EB00685763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED1143D1A4206EB00685763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED1143F1A4206EB00685763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED114421A4206EB00685763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED114441A4206EB00685763 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CED114471A4206EB00685763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CED1144D1A4206EC00685763 /* League of Legend LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League of Legend LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED114521A4206EC00685763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED114531A4206EC00685763 /* League_of_Legend_LiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_of_Legend_LiveTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED114351A4206EB00685763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1144A1A4206EC00685763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED1142F1A4206EB00685763 = {
+			isa = PBXGroup;
+			children = (
+				CED1143A1A4206EB00685763 /* League of Legend Live */,
+				CED114501A4206EC00685763 /* League of Legend LiveTests */,
+				CED114391A4206EB00685763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED114391A4206EB00685763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED114381A4206EB00685763 /* League of Legend Live.app */,
+				CED1144D1A4206EC00685763 /* League of Legend LiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED1143A1A4206EB00685763 /* League of Legend Live */ = {
+			isa = PBXGroup;
+			children = (
+				CED1143D1A4206EB00685763 /* AppDelegate.swift */,
+				CED1143F1A4206EB00685763 /* ViewController.swift */,
+				CED114411A4206EB00685763 /* Main.storyboard */,
+				CED114441A4206EB00685763 /* Images.xcassets */,
+				CED114461A4206EB00685763 /* LaunchScreen.xib */,
+				CED1143B1A4206EB00685763 /* Supporting Files */,
+			);
+			path = "League of Legend Live";
+			sourceTree = "<group>";
+		};
+		CED1143B1A4206EB00685763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED1143C1A4206EB00685763 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED114501A4206EC00685763 /* League of Legend LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED114531A4206EC00685763 /* League_of_Legend_LiveTests.swift */,
+				CED114511A4206EC00685763 /* Supporting Files */,
+			);
+			path = "League of Legend LiveTests";
+			sourceTree = "<group>";
+		};
+		CED114511A4206EC00685763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED114521A4206EC00685763 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED114371A4206EB00685763 /* League of Legend Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED114571A4206EC00685763 /* Build configuration list for PBXNativeTarget "League of Legend Live" */;
+			buildPhases = (
+				CED114341A4206EB00685763 /* Sources */,
+				CED114351A4206EB00685763 /* Frameworks */,
+				CED114361A4206EB00685763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League of Legend Live";
+			productName = "League of Legend Live";
+			productReference = CED114381A4206EB00685763 /* League of Legend Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED1144C1A4206EC00685763 /* League of Legend LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED1145A1A4206EC00685763 /* Build configuration list for PBXNativeTarget "League of Legend LiveTests" */;
+			buildPhases = (
+				CED114491A4206EC00685763 /* Sources */,
+				CED1144A1A4206EC00685763 /* Frameworks */,
+				CED1144B1A4206EC00685763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED1144F1A4206EC00685763 /* PBXTargetDependency */,
+			);
+			name = "League of Legend LiveTests";
+			productName = "League of Legend LiveTests";
+			productReference = CED1144D1A4206EC00685763 /* League of Legend LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED114301A4206EB00685763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Denethiel Studio";
+				TargetAttributes = {
+					CED114371A4206EB00685763 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CED1144C1A4206EC00685763 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CED114371A4206EB00685763;
+					};
+				};
+			};
+			buildConfigurationList = CED114331A4206EB00685763 /* Build configuration list for PBXProject "League of Legend Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED1142F1A4206EB00685763;
+			productRefGroup = CED114391A4206EB00685763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED114371A4206EB00685763 /* League of Legend Live */,
+				CED1144C1A4206EC00685763 /* League of Legend LiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED114361A4206EB00685763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED114431A4206EB00685763 /* Main.storyboard in Resources */,
+				CED114481A4206EB00685763 /* LaunchScreen.xib in Resources */,
+				CED114451A4206EB00685763 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1144B1A4206EC00685763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED114341A4206EB00685763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED114401A4206EB00685763 /* ViewController.swift in Sources */,
+				CED1143E1A4206EB00685763 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED114491A4206EC00685763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED114541A4206EC00685763 /* League_of_Legend_LiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED1144F1A4206EC00685763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED114371A4206EB00685763 /* League of Legend Live */;
+			targetProxy = CED1144E1A4206EC00685763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED114411A4206EB00685763 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED114421A4206EB00685763 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED114461A4206EB00685763 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED114471A4206EB00685763 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED114551A4206EC00685763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED114561A4206EC00685763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED114581A4206EC00685763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "League of Legend Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED114591A4206EC00685763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "League of Legend Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CED1145B1A4206EC00685763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "League of Legend LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League of Legend Live.app/League of Legend Live";
+			};
+			name = Debug;
+		};
+		CED1145C1A4206EC00685763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "League of Legend LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League of Legend Live.app/League of Legend Live";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED114331A4206EB00685763 /* Build configuration list for PBXProject "League of Legend Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED114551A4206EC00685763 /* Debug */,
+				CED114561A4206EC00685763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED114571A4206EC00685763 /* Build configuration list for PBXNativeTarget "League of Legend Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED114581A4206EC00685763 /* Debug */,
+				CED114591A4206EC00685763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED1145A1A4206EC00685763 /* Build configuration list for PBXNativeTarget "League of Legend LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED1145B1A4206EC00685763 /* Debug */,
+				CED1145C1A4206EC00685763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED114301A4206EB00685763 /* Project object */;
+}
