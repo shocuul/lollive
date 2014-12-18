@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE32C5DD1A43596F006926E1 /* RequestCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32C5DC1A43596F006926E1 /* RequestCordinator.swift */; };
+		CE32C5DF1A4359D2006926E1 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32C5DE1A4359D2006926E1 /* Match.swift */; };
+		CE32C5E11A438C14006926E1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32C5E01A438C14006926E1 /* Settings.swift */; };
 		CED1143E1A4206EB00685763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1143D1A4206EB00685763 /* AppDelegate.swift */; };
 		CED114401A4206EB00685763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1143F1A4206EB00685763 /* ViewController.swift */; };
 		CED114431A4206EB00685763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED114411A4206EB00685763 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE32C5DC1A43596F006926E1 /* RequestCordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCordinator.swift; sourceTree = "<group>"; };
+		CE32C5DE1A4359D2006926E1 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		CE32C5E01A438C14006926E1 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		CED114381A4206EB00685763 /* League of Legend Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League of Legend Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED1143C1A4206EB00685763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED1143D1A4206EB00685763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 			children = (
 				CED1143D1A4206EB00685763 /* AppDelegate.swift */,
 				CED1143F1A4206EB00685763 /* ViewController.swift */,
+				CE32C5DC1A43596F006926E1 /* RequestCordinator.swift */,
+				CE32C5DE1A4359D2006926E1 /* Match.swift */,
+				CE32C5E01A438C14006926E1 /* Settings.swift */,
 				CED114411A4206EB00685763 /* Main.storyboard */,
 				CED114441A4206EB00685763 /* Images.xcassets */,
 				CED114461A4206EB00685763 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE32C5DD1A43596F006926E1 /* RequestCordinator.swift in Sources */,
 				CED114401A4206EB00685763 /* ViewController.swift in Sources */,
 				CED1143E1A4206EB00685763 /* AppDelegate.swift in Sources */,
+				CE32C5DF1A4359D2006926E1 /* Match.swift in Sources */,
+				CE32C5E11A438C14006926E1 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				CED114591A4206EC00685763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED1145A1A4206EC00685763 /* Build configuration list for PBXNativeTarget "League of Legend LiveTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				CED1145C1A4206EC00685763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
